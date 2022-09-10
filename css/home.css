@@ -153,6 +153,7 @@ a:hover{
     border-radius: 100%;
     background-size: cover;
     border: none;
+    cursor: pointer;
     height: 48px;
     width: 48px;
 }
