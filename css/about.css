@@ -159,6 +159,22 @@ span {
     border-radius: 20px;
 }
 
+.btn{
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
 
 /* our team section styling */
 .our-team{
@@ -208,6 +224,11 @@ span {
     background-color: orange;
     border-radius: 100%;
     font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.fa-brands:hover{
+    background-color: black;
 }
 
 .team-members-div h3,.team-members-div h5{
@@ -228,6 +249,10 @@ span {
 
 .social-div i{
     margin: 1rem 0.5rem;
+}
+
+a:hover{
+    color: orange;
 }
 
 

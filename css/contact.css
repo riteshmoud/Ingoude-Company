@@ -143,10 +143,16 @@ input{
 #submit-btn{
     width: fit-content;
     border-radius: 10px;
-    /* background: none; */
+    color: white;
+    font-weight: bold;
     border: none;
     padding: 1rem;
     background-color: orange;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: black;
 }
 
 /* aside styling code  */

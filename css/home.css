@@ -25,7 +25,7 @@
     background-position: center;
     /* padding: 2.5rem 0; */
     color: white;
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
 }
 
 .main-header > *{
@@ -119,6 +119,27 @@ span{
     border-radius: 10px;
     margin-top: 1rem;
     padding: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+
+a:hover{
+    color: orange;
+}
+
+.header-btn2{
+    border: 2px solid orange;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header-btn2:hover{
     background-color: orange;
 }
 

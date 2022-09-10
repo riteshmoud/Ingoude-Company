@@ -20,9 +20,18 @@ footer{
     padding-bottom: 1rem;
 }
 
-.footer-section1-item ul li a{
+/* .footer-section1-item ul li a{
     text-decoration: none;
     color: white;
+} */
+
+.footer-section1-item a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: orange; 
 }
 
 .footer-section1-item h3{
